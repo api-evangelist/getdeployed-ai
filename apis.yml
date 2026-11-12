@@ -1,0 +1,28 @@
+aid: getdeployed-ai
+name: Deployed OS
+description: 'Deployed OS is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/getdeployed-ai/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-12'
+modified: '2026-11-12'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://getdeployed.ai
+- type: Documentation
+  url: https://getdeployed.ai/mcp
+x-submission-notes: 'Company MCP gateway: one MCP endpoint per company exposing admin-enabled connectors
+  with access rules, skills, guardrails, audit log'
+x-submission-probe: root 200 real title; invented path 404; /mcp 200 product page; 2026-11-12
